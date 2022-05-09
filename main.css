@@ -1,0 +1,145 @@
+.text_vvod{
+
+    padding: 15PX;
+    
+  
+}
+
+.text_vvod > textarea{
+
+    margin: 25px auto;
+    display: block;
+    overflow: auto;
+    min-width: 600px;
+    min-height: 250px;
+    max-width: 750px;
+    max-height: 250px;
+}
+
+.keybord_body{
+
+    
+    width: 1000px;
+    height: 450px;
+    padding: 5px;
+    background-color: 	#00FFFF;
+    margin: auto auto;
+    border: 5px solid SteelBlue;
+    text-align: center;
+}
+
+.keyboard_row{
+    
+    margin: 8px auto;
+    width: 970px;
+    justify-content: space-between;
+    display: flex   ;
+}
+
+.row0{
+
+    margin-top: 10px;
+}
+
+.keyboard--key{
+
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    text-align: center;
+    margin: 3px;
+    font-size: 25px;
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+.key{
+
+    box-shadow: 0px 3px 9px 0px rgb(7, 12, 161);
+}
+
+
+
+.active{
+
+    box-shadow: 0px 0px 0px 0px rgba(54,0,255, 1);
+    background-color: #1E90FF;
+    border: 3px #1E90FF solid;
+    border-radius: 15px;
+}
+
+
+.actives{
+
+    background-color: #1E90FF;
+    border: 3px #1E90FF solid;
+    border-radius: 15px;
+}
+
+.rus > span{
+
+    
+   text-align: center;
+
+}
+
+.eng, .rus{
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;    
+    -moz-user-select: none;     
+    -ms-user-select: none;       
+    user-select: none;      
+}
+
+
+.Backspace{
+
+    width: 136px;
+}
+
+.Tab{
+
+    width: 73px;
+}
+
+.CapsLock{
+    width: 142px;
+}
+
+.Enter{
+
+    width: 107px;
+}
+
+.ShiftLeft, .ShiftRight{
+
+    width: 125px;
+}
+
+
+.ControlLeft, .ControlRight{
+
+    width: 60px;
+}
+
+.Win{
+
+    width: 58px;
+}
+
+.hidden{
+
+    display: none;
+}
+
+.AltLeft, .AltRight{
+
+    width: 55px;
+}
+
+.Space{
+
+    width: 410px;
+}
+
+
